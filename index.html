@@ -36,7 +36,17 @@
           <h1 class="display-3">Search the Library of Congress</h1>
           <form id="search-form">
             <input id="search-box" class="my-1" type="text" placeholder="I Am America and so Can You"/>
-            <input id="search-format" class="my-1" type="select" placeholder="Select a format..." />
+            <label for="search-format" class="my-1">Choose a car:</label>
+            <select id="search-format" name="search-format" class="my-1">
+              <option value="maps">Maps</option>
+              <option value="audio">Audio</option>
+              <option value="photos">Photos</option>
+              <option value="manuscripts">Manuscripts</option>
+              <option value="newspapers">Newspapers</option>
+              <option value="film-and-videos">Film and Videos</option>
+              <option value="notated-music">Notated Music</option>
+              <option value="websites">Websites</option>
+            </select>
             <input id="search-btn" class="custom-btn my-1" type="submit" value="Search" />
           </form>
         </div>
