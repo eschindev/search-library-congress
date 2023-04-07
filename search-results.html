@@ -30,26 +30,18 @@
   </head>
 
   <body>
-    <header class="p-5 mb-2">
-      <h1 class="display-3">Search the Library of Congress</h1>
-      <p class="lead">[clever subtitle]]</p>
-    </header>
     <div id="appArea" class="container-fluid px-5">
       <div id="app-row" class="row">
         <div id="search-area" class="col-3">
           <h2>Search for a City:</h2>
           <form id="search-form">
-            <input id="city-search-box" class="my-1" type="text" placeholder="San Francisco"/>
-            <input id="city-search-btn" class="custom-btn my-1" type="submit" value="Search" />
+            <input id="search-box" class="my-1" type="text" placeholder="Goodnight, Moon"/>
+            <input id="search-format" class="my-1" type="select" placeholder="Select a format..." />
+            <input id="search-btn" class="custom-btn my-1" type="submit" value="Search" />
           </form>
-          <div id="search-history"></div>
         </div>
         <div id="output-col" class="col-9">
-          <div id="current-day-row" class="row">
-            <div id="current-day-output" class="col-10"></div>
-            <div id="five-day-header"></div>
-            <div id="five-day-forecast" class="row"></div>
-          </div>
+          <!-- autogenerate content here -->
         </div>
       </div>
     </div>
