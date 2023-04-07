@@ -8,7 +8,7 @@ var formSubmitHandler = function (event) {
     event.preventDefault();
   
     var searchTerm = searchBoxEl.value.trim();
-    var format = ;
+    var format = searchFormatEl;
 
     if (searchTerm) {
       getLibraryContent(searchTerm, format)
